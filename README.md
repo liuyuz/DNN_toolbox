@@ -11,7 +11,7 @@ For technical details about DNN-based speech separation see the following paper:
 Wang Y., Narayanan A. and Wang D.L. (2014): On training targets for supervised speech separation. IEEE/ACM Transactions on Audio, Speech, and Language Processing, vol. 22, pp. 1849-1858.
 The toolbox is provided by the OSU Perception and Neurodynamics Laboratory (PNL).
 
-Description of folders and files
+## Description of folders and files
 
 config/
 Lists of clean utterances for training and test.
@@ -37,8 +37,7 @@ It configures feature type, noise type, training utterance list, test utterance 
 RUN.m
 It loads configurations from load_config.m and runs a speech separation demo.
 
-DEMO
-
+## DEMO
 
 (Tested on Matlab 2015b under Ubuntu 14.04, Red Hat 6.7, OS X 10.11.3 and Windows 7.)
 This demo uses 600 mixtures for training and 120 mixtures for testing.
@@ -70,6 +69,6 @@ DATA/factory/dnn/WAVE/db-2/: mixture, clean speech and resynthesized speech.
 DATA/factory/dnn/STORE/db-2/EST_MASK/: estimated masks and ideal masks.
 DATA/factory/log_db-2.txt: log file for this demo.
 
-Acknowledgments
+## Acknowledgments
 
 We use rastamat (http://labrosa.ee.columbia.edu/matlab/rastamat/) to extract rastaplp and mfcc features. We use STOI (http://ceestaal.nl/stoi.zip) as one of the objective speech intelligibility metrics.
